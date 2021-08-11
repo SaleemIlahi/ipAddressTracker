@@ -4,7 +4,7 @@
   "description": "This is IP Address Tracker",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "compile:sass": "sass css/index.scss css/index.css -w"
   },
   "keywords": [
     "IP",
