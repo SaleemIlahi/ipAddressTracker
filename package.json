@@ -1,0 +1,19 @@
+{
+  "name": "ip-address-tracker",
+  "version": "1.0.0",
+  "description": "This is IP Address Tracker",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "IP",
+    "Address",
+    "Tracker"
+  ],
+  "author": "Mohamed Saleem",
+  "license": "ISC",
+  "dependencies": {
+    "sass": "^1.37.5"
+  }
+}
