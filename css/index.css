@@ -17,7 +17,6 @@ main header {
   background-size: cover;
   text-align: center;
   position: relative;
-  z-index: -1;
 }
 main header .title-section {
   position: absolute;
@@ -70,7 +69,11 @@ main header .title-section .search-section .img-section:hover {
 main header .title-section .search-section .img-section img {
   margin-top: 18px;
 }
-main .address-detail-section {
+main header .address-detail-section {
+  position: absolute;
+  bottom: -20%;
+  left: 50%;
+  transform: translateX(-50%);
   width: 80%;
   display: flex;
   justify-content: center;
@@ -78,29 +81,28 @@ main .address-detail-section {
   border-radius: 20px;
   background: #ffffff;
   padding: 30px;
-  margin-top: -80px;
 }
-main .address-detail-section .ip-address, main .address-detail-section .isp, main .address-detail-section .time, main .address-detail-section .location {
+main header .address-detail-section .ip-address, main header .address-detail-section .isp, main header .address-detail-section .time, main header .address-detail-section .location {
   flex-basis: 25%;
   padding: 0 40px;
 }
-main .address-detail-section .ip-address h3, main .address-detail-section .isp h3, main .address-detail-section .time h3, main .address-detail-section .location h3 {
+main header .address-detail-section .ip-address h3, main header .address-detail-section .isp h3, main header .address-detail-section .time h3, main header .address-detail-section .location h3 {
   color: #969696;
   font-size: 0.9rem;
   font-weight: 500;
 }
-main .address-detail-section .ip-address h2, main .address-detail-section .isp h2, main .address-detail-section .time h2, main .address-detail-section .location h2 {
+main header .address-detail-section .ip-address h2, main header .address-detail-section .isp h2, main header .address-detail-section .time h2, main header .address-detail-section .location h2 {
   font-size: 1.4rem;
   font-weight: 500;
   margin-top: 10px;
 }
-main .address-detail-section .location {
+main header .address-detail-section .location {
   border-left: 2px solid rgba(150, 150, 150, 0.2);
 }
-main .address-detail-section .time {
+main header .address-detail-section .time {
   border-left: 2px solid rgba(150, 150, 150, 0.2);
 }
-main .address-detail-section .isp {
+main header .address-detail-section .isp {
   border-left: 2px solid rgba(150, 150, 150, 0.2);
 }
 
