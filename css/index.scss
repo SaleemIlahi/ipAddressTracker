@@ -24,10 +24,11 @@ main{
         background-size: cover;
         text-align: center;
         position: relative;
+        z-index: -1;
 
         .title-section{
             position: absolute;
-            top: 40px;
+            top: 50px;
             left: 50%;
             transform: translateX(-50%);
             width: 50%;
@@ -82,6 +83,49 @@ main{
                     }
                 }
             }
+        }
+    }
+
+    .address-detail-section{
+        width: 80%;
+        display: flex;
+        justify-content: center;
+        margin: 0 auto;
+        border-radius: 20px;
+        background: $white;
+        padding: 30px;
+        margin-top: -80px;
+        
+        .ip-address{
+            flex-basis: 25%;
+            padding: 0 40px;
+
+            h3{
+                color: $lightkGray;
+                font-size: .9rem;
+                font-weight: 500;
+            }
+
+            h2{
+                font-size: 1.4rem;
+                font-weight: 500;
+                margin-top: 10px;
+            }
+        }
+
+        .location{
+            @extend .ip-address;
+            border-left: 2px solid rgba(150, 150, 150,0.2);
+        }
+
+        .time{
+            @extend .ip-address;
+            border-left: 2px solid rgba(150, 150, 150,0.2);
+        }
+
+        .isp{
+            @extend .ip-address;
+            border-left: 2px solid rgba(150, 150, 150,0.2);
         }
     }
 }
