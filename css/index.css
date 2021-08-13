@@ -83,7 +83,7 @@ main header .address-detail-section {
   padding: 30px;
 }
 main header .address-detail-section .ip-address, main header .address-detail-section .isp, main header .address-detail-section .time, main header .address-detail-section .location {
-  flex-basis: 25%;
+  width: fit-content;
   padding: 0 40px;
 }
 main header .address-detail-section .ip-address h3, main header .address-detail-section .isp h3, main header .address-detail-section .time h3, main header .address-detail-section .location h3 {
