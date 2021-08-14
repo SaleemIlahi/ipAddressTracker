@@ -51,7 +51,7 @@ const LeafletMap = (lat,lang) => {
     }).addTo(mymap);
 
     const icon = L.icon({
-        iconUrl: '../img/icon-location.svg',
+        iconUrl: './img/icon-location.svg',
         iconSize: [25,35]
     })
 
