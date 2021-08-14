@@ -105,5 +105,9 @@ main header .address-detail-section .time {
 main header .address-detail-section .isp {
   border-left: 2px solid rgba(150, 150, 150, 0.2);
 }
+main #map {
+  height: 500px;
+  z-index: -1;
+}
 
 /*# sourceMappingURL=index.css.map */
