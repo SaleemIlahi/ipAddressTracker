@@ -14,9 +14,9 @@ For Mapbox map you must required Token (https://account.mapbox.com/access-tokens
 
 # ScreenShot
 
-![](img/screenshort/img-1.png)
-![](img/screenshort/img-2.png)
-![](img/screenshort/img-3.png)
+![](img/screenshort/img-1.PNG)
+![](img/screenshort/img-2.PNG)
+![](img/screenshort/img-3.PNG)
 
 # Built with
 
